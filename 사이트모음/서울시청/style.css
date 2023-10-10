@@ -1,0 +1,1026 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{padding: 0;margin: 0;text-decoration: none;font-weight: normal;text-align: center;box-sizing: border-box;color: inherit;list-style-type: none;}
+
+.wrap{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.inner{
+    margin: 0 160px;
+    width: 1120px;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'SeoulHangangM';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* header-top-wrap */
+.header-top-wrap{
+    color: #fff;
+    background-color: #2C87BE;
+}
+
+.header-top-wrap .header-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'SeoulHangangM';
+}
+
+.header-top-wrap .header-top-left ul{
+    display: flex;
+    gap: 24px;
+    line-height: 44px;
+}
+
+.header-top-right ul{
+    display: flex;
+    gap: 24px;
+    line-height: 44px;
+}
+/* header-top-wrap End */
+
+/* .header-btm */
+.header-btm{
+    margin-top: 22px;
+    display: flex;
+    font-family: 'SeoulHangangM';
+}
+
+.page-logo-wrap{display: flex;}
+.page-logo-wrap h1{
+    margin-left: 7px;
+    font-size: 18px;
+    line-height: 66px;
+    font-size: 26px;
+}
+
+.page-logo img{
+    width: 62px;
+    height: 66px;
+}
+
+.page-menu{
+    height: 79px;
+    line-height: 66px;
+    display: flex;
+    gap: 32px;
+    margin-left: 90px;
+    margin-right: 222px;
+}
+
+.page-covid{
+    margin-top: 10px;
+    width: 228px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #38924A;
+    border-radius: 15px;
+}
+.page-covid strong{color: #fff;}
+
+.quick-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.quick-weather{margin-top: 10px;}
+.quick-weather ul{
+    display: flex;
+    gap: 33px;
+}
+
+.weather{display: flex;}
+.weather img{
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-right: 8px;
+}
+
+.weather strong,
+.air strong{
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.weather p,
+.air p{
+    margin: 14px 0 0 4px;
+    font-size: 14px;
+}
+
+.air{display: flex;}
+.air img{
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-right: 8px;
+}
+
+.quick-search{
+    width: 482px;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 16px;
+}
+
+.quick-search input{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border: 3px solid #2c87be;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.quick-search .search-ico{
+    background: url(img/search-ico.png)no-repeat center/ 100%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.quick-icon{
+    display: flex;
+    gap: 48px;
+    margin-top: 8px;
+}
+.quick-icon li p{font-size: 12px;}
+.touch img{
+    width: 20px;
+    height: 29px;
+}
+.company img{
+    width: 28px;
+    height: 29px;
+}
+.calendar img{
+    width: 28px;
+    height: 29px;
+}
+.quick-menu-wrap{
+    background-color: #2C87BE;
+    color: #fff;
+}
+/* header End */
+
+/* main */
+.main .quick-menu ul{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    line-height: 64px;
+    font-family: 'SeoulHangangM';
+    font-size: 18px;
+}
+
+.main-news-wrap{
+    height: 573px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    background: url(img/main-minwon.jpg)no-repeat center /cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+.main-news-wrap::after{
+    content: '';
+    background: url(img/visual_2-1.png)no-repeat center;
+    position: absolute;
+    left: -70px;
+    bottom: -80px;
+    width: 356px;
+    height: 443px;
+    z-index: 10;
+}
+
+.main-news-wrap > .inner{
+    border-radius: 40px;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 100;
+    position: relative;
+}
+
+.main-news-wrap h1{padding: 16px 0 32px 0;}
+
+.main-news-wrap .main-news{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    height: 399px;
+}
+
+.first-main-news,
+.second-main-news,
+.third-main-news{
+    width: 308px;
+    height: 399px;
+}
+
+.first-main-news img,
+.second-main-news img,
+.third-main-news img{
+    display: block;
+    width: 308px;
+    height: 308px;
+    border-radius: 40px;
+}
+.main-news-wrap .main-news strong{
+    font-family: 'SeoulHangangM';
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 8px;
+    display: inline-block;
+}
+.main-news-wrap .main-news p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 4px 0;
+}
+.main-news-wrap .main-news a{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.first-main-news .first-main-news-txt{text-align: left;}
+.first-main-news .first-main-news-txt p{text-align: left;}
+.second-main-news img{
+    display: block;
+    width: 308px;
+    height: 308px;
+    border-radius: 40px;
+}
+
+.second-main-news-txt{text-align: left;}
+
+.third-main-news img{
+    display: block;
+    width: 308px;
+    height: 308px;
+    border-radius: 40px;
+}
+.third-main-news-txt{text-align: left;}
+
+/* main-service */
+.main-service{
+    height: 302px;
+    margin-bottom: 30px;
+}
+.main-service h2{
+    padding: 70px 0 20px;
+    border-bottom: 1px solid #969696;
+}
+.main-service ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 30px 0;
+}
+.main-service ul li{
+    width: 140px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 40px;
+    background-color: #eaeaeabe;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main-service ul li:hover{background-color: #2c86be9d;}
+.main-service ul li:hover p{color: #fff;}
+
+.main-service img{
+    width: 80px;
+    height: 80px;
+}
+
+.seoul-notice h3{
+    padding: 50px 0 14px 0;
+    text-align: left;
+}
+.seoul-notice h3 span{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.seoul-notice{margin-bottom: 108px;}
+
+.notice-story{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seoul-notice-sub{margin-bottom: 12px;}
+.seoul-notice-sub ul{
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    display: flex;
+    justify-content: space-between;
+    height: 59px;
+    line-height: 55px;
+}
+.seoul-notice-sub button{
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.seoul-notice-sub img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.notice-small-pic ul{
+    display: flex;
+    height: 221px;
+    gap: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+.notice-small-pic ul li{
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 1px solid #969696;
+    border-radius: 15px;
+    background-color: #fff;
+    z-index: 500;
+    opacity: 0.9;
+}
+
+.notice-small-pic p{
+    padding-top: 16px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.notice-small-pic strong{
+    display: block;
+    text-align: left;
+}
+
+.pic-1-img img,
+.pic-2-img img,
+.pic-3-img img{
+    width: 196px;
+    height: 99px;
+    border-radius: 15px;
+}
+
+.right-seoul-notice{
+    width: 368px;
+    height: 290px;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notice-img-txt{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    bottom: 36px;
+    width: 100%;
+    padding: 2px 0;
+}
+.notice-small-intro{
+    width: 368px;
+    height: 251px;
+}
+
+.notice-small-intro img{
+    width: 368px;
+    height: 251px;
+}
+
+.small-intro-txt ul{
+    display: flex;
+    justify-content: space-between;
+    height: 39px;
+    line-height: 39px;
+    background-color: #89613D;
+    color: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.main-call-wrap{position: relative;}
+
+.main-call-wrap::after{
+    position: absolute;
+    left: 0;
+    bottom: -260px;
+    width: 683px;
+    height: 690px;
+    content: '';
+    background: url(img/sing.jpg) no-repeat center /100%;
+    z-index: -10;
+}
+
+.main-call-wrap h4{text-align: center;}
+.main-call-wrap h4::after{
+    position: absolute;
+    left: -18px;
+    bottom: 150px;
+    width: 401px;
+    height: 686px;
+    rotate: -40deg;
+    content: '';
+    background: url(img/call.png) no-repeat center /100%;
+    z-index: 10;
+}
+
+.main-call-wrap .complaints-wrap::after{
+    content: '';
+    position: absolute;
+    z-index: -100;
+    right: 0;
+    top: -160px;
+    margin-bottom: 500px;
+    width: 354px;
+    height: 344px;
+    background: url(img/seoul_graphy.png) no-repeat center /100%;
+}
+
+.complaints-wrap{padding: 31px 8px;}
+
+.main-complaints{
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.left-complaints{width: 418px;}
+
+.variety-complaints{
+    height: 202px;
+    padding: 40px 12px;
+    background: url(img/main-minwon.jpg) no-repeat center/ 100%;
+}
+.variety-complaints ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.variety-complaints ul li{
+    text-align: left;
+    width: 191px;
+    height: 38px;
+    line-height: 36px;
+    background-color: #fff;
+    border: 1px solid #969696;
+    z-index: 100;
+}
+.variety-complaints ul li a{
+    margin-left: 14px;
+    font-size: 15px;
+}
+
+.variety-complaints li:nth-child(2){z-index: 100;}
+
+.left-down-complaints{
+    display: flex;
+    justify-content: space-between;
+    height: 188px;
+    width: 418px;
+    gap: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.left-down-complaints em{
+    font-family: 'SeoulHangangM';
+    font-size: 18px;
+    font-style: normal;
+}
+.left-down-complaints ul{
+    display: flex;
+    width: 418px;
+    gap: 8px;
+}
+
+.left-down-left{
+    background-color: #D89A64;
+    padding-top: 60px;
+}
+.left-down-left p{font-size: 14px;}
+.left-down-left .up-p{padding-top: 8px;}
+
+.left-down-right{
+    background-color: #38924A;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'SeoulHangangM';
+}
+
+.left-down-right p{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.left-down-right img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 26px 0 16px 80px;
+}
+
+.left-down-complaints ul>li{
+    height: 188px;
+    width: 205px;
+}
+.localTax-complaints{width: 205px;}
+
+.mid-complaints{
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+    width: 223px;
+}
+.mid-complaints strong{font-family: 'SeoulHangangM';}
+.mid-complaints p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+.report-complaints{
+    height: 202px;
+    background-color: #BD1137;
+    color: #fff;
+    padding-top: 8px;
+}
+
+.report-complaints img{
+    width: 82px;
+    height: 60px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.water-complaints,
+.office-complaints{
+    height: 90px;
+    color: #fff;
+    background-color: #008BD0;
+    font-size: 12px;
+    padding-top: 16px;
+}
+
+.water-complaints strong{font-size: 18px;}
+.water-complaints span{
+    color: #0010A5;
+    font-weight: bold;
+}
+.water-complaints p{
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.office-complaints strong{font-size: 18px;}
+.office-complaints p{
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.join-complaints{
+    width: 223px;
+    padding: 71px 16px 0 16px;
+    background: url(img/join-pic.jpg)no-repeat center/ 223px 398px;
+}
+
+.join-complaints strong{
+    font-family: 'SeoulHangangM';
+    display: block;
+    width: 99px;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #969696;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 45px;
+    background-color: #fff;
+}
+
+.join-complaints ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    gap: 16px;
+}
+
+.join-complaints ul li{
+    text-align: left;
+    padding-left: 14px;
+    height: 38px;
+    line-height: 36px;
+    border: 1px solid #969696;
+    background-color: #fff;
+}
+
+.right-complaints{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+
+.call-complaints{
+    width: 216px;
+    height: 196px;
+    background-color: #FFAC0A;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.call-complaints strong{
+    font-family: 'SeoulHangangM';
+    font-weight: bold;
+    font-size: 18px;
+}
+.call-complaints img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 8px 62px;
+}
+
+.reservation-complaints{
+    height: 196px;
+    width: 216px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border: 1px solid #969696;
+}
+.reservation-complaints strong{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'SeoulHangangM';
+}
+.reservation-complaints p{padding-top: 16px;}
+/* main-call-wrap End */
+
+/* event */
+.event{
+    display: flex;
+    gap: 8px;
+}
+
+.join-wrap{
+    background-color: #fff;
+    width: 450px;
+    height: 239px;
+    text-align: left;
+    border-radius: 40px;
+    border: 2px solid #969696;
+    padding: 30px;
+    margin-left: 8px;
+}
+.join-wrap h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.join-wrap .event-plus{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(img/plus-ico.png)no-repeat center /100%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.festival-wrap h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.festival-wrap .event-plus{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(img/plus-ico.png)no-repeat center /100%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.join-wrap ul{padding-top: 16px;}
+.join-wrap ul li{
+    text-align: left;
+    padding-bottom: 4px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.join-wrap ul li span{padding-right: 24px;}
+
+.festival-wrap{
+    width: 450px;
+    height: 239px;
+    text-align: left;
+    border-radius: 40px;
+    border: 2px solid #969696;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.festival-wrap ul{padding-top: 16px;}
+.festival-wrap ul li{
+    text-align: left;
+    padding-bottom: 4px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.festival-wrap span{padding-right: 24px;}
+.event .environment-green{color: #38924A;}
+.event .economy-blue{color: #008BD0;}
+.event .welfare-red{color: #BD1137;}
+.event .culture-blue{color: #1E35B7;}
+
+.event img{
+    margin-top: 80px;
+    box-sizing: border-box;
+    width: 210px;
+    height: 190px;
+}
+
+.event .haetae {position: relative;}
+.event .haetae::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 14px;
+    background: url(img/namsan.jpg) center no-repeat;
+    width: 500px;
+    height: 689px;
+    z-index: -1000;
+}
+/* event End */
+
+.seoul-communication-wrap{padding-top: 78px;}
+
+.communication-area{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 33px 36px;
+    opacity: 0.9;
+}
+
+.communication-area::after{
+    content: '';
+    width: 380px;
+    height: 620px;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    background: url(img/walkway.jpg)no-repeat center 70%;
+    z-index: -100;
+}
+
+.communication-area strong{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.communication-area>div{
+    width: 335px;
+    height: 255px;
+}
+
+.communication-area img{
+    width: 200px;
+    height: 190px;
+}
+
+.communication-area > div {background-color: #fff;}
+
+.communication-area-img1{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+.communication-area-img1 .img-box-1{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.communication-area-img2{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+.communication-area-img2 .img-box-2{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.communication-area-img3{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+.communication-area-img3 .img-box-3{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.communication-area-img4{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+.communication-area-img4 .img-box-4{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.communication-area-img5{
+    position: relative;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+.communication-area-img5::after{
+    content: '';
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    z-index: -100;
+    width: 450px;
+    height: 515px;
+    background: url(img/palace.png) no-repeat center /90%;
+}
+.communication-area-img5 .img-box-5{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.communication-area-img6{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+    border: 1px solid #969696;
+    position: relative;
+}
+.communication-area-img6::after{
+    position: absolute;
+    content: '';
+    z-index: -100;
+    right: -100px;
+    bottom: 0;
+    width: 344px;
+    height: 517px;
+    background: url(img/Seoul.jpg)no-repeat center ;
+}
+.communication-area-img6 .img-box-6{
+    width: 293px;
+    height: 188px;
+    margin-bottom: 8px;
+}
+
+.footer{
+    color: #4f4f4f;
+}
+.footer-menu{background-color: #E9E9E9;}
+
+.footer-menu button{
+    border: transparent;
+    background: transparent;
+    cursor: pointer;
+}
+.footer-menu button::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(img/chevron-up-solid.svg) no-repeat bottom/ 45%;
+}
+
+.footer-menu .inner{
+    height: 56px;
+    line-height: 56px;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.footer-menu ul li{width: 20%;}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.footer-top .copyright-wrap{
+    display: flex;
+    gap: 30px;
+    height: 36px;
+    line-height: 36px;
+}
+.footer-top .copyright-wrap span{
+    color: #000;
+    border-bottom: 1px solid black;
+}
+.footer-top .sns-wrap{
+    display: flex;
+    gap: 30px;
+    line-height: 36px;
+}
+.sns-wrap img{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.left-footer-btm-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-btm{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+.footer-btm .call{
+    font-size: 14px;
+    text-align: left;
+}
+.footer-btm .call img{
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footer-btm .call span{
+    margin-left: 4px;
+}
+.footer-btm .call strong,
+.footer-btm .call span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-btm .call p{
+    text-align: left;
+    line-height: 140%;
+}
+
+.footer-btm .copyright{margin-top: 18px;}
+.footer-btm .copyright p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 140%;
+}
+
+.footer-btm .web-access{
+    display: flex;
+    gap: 30px;
+}
+.web-access img{
+    width: 80px;
+    height: 60px;
+}
